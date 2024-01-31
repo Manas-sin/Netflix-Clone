@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #181818;
+    
+  }
+body{
+  background-color: #181818;
+  color: #fff;
+}
+
+header
+{
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    left: 0;
+    padding: 16px 3%;
+    position:absolute;
+    right: 0;
+    top: 0;
+    z-index: 20;
+    margin: 5px;
+}
+.logo{
+    margin-left: 0.4em; 
+    background-color: #000;
+  }
+  a{
+    background-color: #000;
+  }
+  .logo img {
+    margin-top: 2px;
+    height: 2rem;
+    padding-left: 1em;
+    margin-top: 5px;
+    background-color: #000;
+  }
+.btn-1{
+    font-size: small;
+    align-items: end;
+    margin-right: 50px;
+     cursor: pointer;
+     border-color: none;
+     background-color: black;
+     size: small;
+
+
+}
+
+.line1{
+    color: white;
+    text-decoration: none;
+}
+#joinnow,#signin{
+    margin: 3px; 
+    font-size: 12px; 
+}
+ header a::hover{
+
+ }
+.container{
+ display: flex;
+  box-sizing: border-box;
+}
+.container-2,h1{
+display: flex;
+flex-direction: column;
+transition-delay: 1s;
+transition-duration: .75s;
+}
+.row{
+  padding: 30px;
+  background-color: #181818;
+}
+h1{
+  text-align: left;
+font-family:fantasy;
+}
+p{
+  font-size: 15px;
+}
+h2{
+   margin-left: 2em;
+   font-size: 20px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#movie{
+  font-size:50px;
+  color: white;
+  font-family: sans-serif;
+}
+/* crouser */
+
+/* netflix crouser starts hear */
+.row_poster{
+  width: 100%;
+  object-fit: contain;
+  max-height: 200px;
+  transition:transform 450ms;
+  margin-right: 10px;
+
+}
+
+.row_posters{
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+}
+
+.row_poster:hover{
+  transform:scale(1.08);
+  cursor: pointer;
+}
+
+.row_posters::-webkit-scrollbar{
+  display:none;
+}
+.row_posterLarge{
+  max-height: 200px;
+
+}
+.row_posterLarge:hover {
+  transform:scale(1.12);
+}
+
+
+/* footer */
+.footer-wrapper{
+  /* font-size: 16px;
+  display: flex;
+  text-decoration: none; */
+  color: #4a4a4a;
+  font-size: 1em;
+  margin-top: 80px;
+  min-width: 190px;
+  padding-bottom: 20px;
+  position: relative;
+  width: 100%;
+}
+
+ul {
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  list-style-type: none;
+}
+
+
+li {
+  color: rgb(177, 173, 173);
+  font-size: small;
+   text-align: left;
+    justify-content: left;
+  display:inline-flex;
+  margin-right: 10px;
+
+}
+.a1{
+  background-color: #181818;
+}
+a {
+  text-decoration: none;
+  color: #737373;
+}
+
+a:hover {
+   color: #fff;
+   text-decoration:none;
+}
+.footer-link-item{
+   box-sizing: border-box;
+    display: inline-block;
+    margin-bottom: 16px;
+    min-width: 100px;
+    padding: 0 22px 0 0;
+    vertical-align: top;
+    
+}
+.sub-footer{
+  margin: 0 auto;
+  padding-top: 30px;
+  width: 90%;
+}
